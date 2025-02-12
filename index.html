@@ -3,40 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Wednesday 15:45, scattered clouds<br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>🌤️ 12°C</div>
+      </main>
+      <footer>
         <p>
-          Wednesday 15:45, scattered clouds<br />
-          Humidity: 66%, Wind: 3.13km/h
+          This project was coded by
+          <a href="https://github.com/Rumeysa-Sakarya" target="_blank"
+            >Rumeysa Sakarya</a
+          >. It is open-sourced on
+          <a
+            href="https://github.com/Rumeysa-Sakarya/weerbericht"
+            target="_blank"
+          >
+            GitHub</a
+          >
+          and hosted by
+          <a href="https://weerbericht-app-shecodes.netlify.app/">Netlify</a>
         </p>
-      </div>
-      <div>🌤️ 12°C</div>
-    </main>
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/Rumeysa-Sakarya" target="_blank"
-          >Rumeysa Sakarya</a
-        >. It is open-sourced on
-        <a
-          href="https://github.com/Rumeysa-Sakarya/weerbericht"
-          target="_blank"
-        >
-          GitHub</a
-        >
-        and hosted by
-        <a href="https://weerbericht-app-shecodes.netlify.app/">Netlify</a>
-      </p>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
